@@ -1,6 +1,9 @@
 # JavaWorkshop
 ## Curso de java UASLP encora
-
+## Requisitos del taller
+- IntelliJ
+- JDK 1.8+
+- Cuenta de datos
 ## Java collections framework
 - Interfaces
 - Implementaciones
