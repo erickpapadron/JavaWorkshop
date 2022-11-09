@@ -1,7 +1,7 @@
 # JavaWorkshop
 ## Curso de java UASLP encora
 
-### Mirna Botello / Iván Uresti
+#### Mirna Botello / Iván Uresti
 ## Requisitos del taller
 - IntelliJ
 - JDK 1.8+
@@ -95,3 +95,50 @@ Solamente para aprender, pero pues usar las de java, duh
 https://www.bigocheatsheet.com
 
 
+## 9 de Noviembre 2022
+### Ordered
+Obtenemos los datos en el orden en el que fueron insertados
+
+### Sorted
+Se ordenan de acuerdo a un criterio, cuando los obtengamos los obtenemos de forma ordenada a diferencia del ***Ordered***
+
+
+# Nuevo requerimiento
+- Placas impresas en orden alfábetico
+- buscar placas
+
+---
+En una tabla hash 
+| 0 |
+| :--:|
+| 1 | 
+| 2 |
+| 3 |
+| 4 |
+
+### Cubetas/buckets
+
+#### Tablas hsah = Tablas de dispersión
+
+### Árbol: Red Black
+Tenemos que saber cómo comparar dos objetos en nuestra lista
+# Interfaces
+## Comparable
+que puede ser comparable con alguien más
+## Comparator
+Alguién quee compara cosas
+
+### Ojo
+Interfaz = Contrato
+La interfaz por concepto no debería de permitir implementaciones de métodos, desde java 8, los métodos default existen para meter implementaciones por default a las interfaces, es por eso que la interfaz Comparator puede tener métodos como el de ***reversed()***
+
+## Requerimiento
+- Relacionar la información del vehículo con su dueño
+- Tenemos un conjunto de archivos que contienen la información de las personas, y un archivo que contiene las relaciones.
+- Dado un carro obtener el dueño, donde un carro solo puede tener un dueño, pero un dueño puede tener más de 1 carro
+
+Hash set no se puede iterar en él de manera ordenada, se puede hacer de forma ordered (forma en que fueron insertadas) usando el LinkedHashSet.
+HashSet  + LinkedList
+
+## Springboot
+https://spring.io/projects/spring-boot
